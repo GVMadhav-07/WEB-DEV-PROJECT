@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LuxeStore | Premium E-Commerce</title>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="header">
+        <div class="logo">
+            <h1>Luxe<span>Store</span></h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search for products, brands and more...">
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#" class="active" data-section="all">Home</a></li>
+                <li><a href="#" data-section="Shirts">Shirts</a></li>
+                <li><a href="#" data-section="Pants">Pants</a></li>
+                <li><a href="#" data-section="Watches">Watches</a></li>
+                <li><a href="#" data-section="Perfumes">Perfumes</a></li>
+            </ul>
+        </nav>
+        <div class="header-actions">
+            <div class="cart-icon" id="cartOpenBtn">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-badge" id="cartBadge">0</span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero / Promotions Carousel -->
+    <section class="hero-carousel">
+        <div class="carousel-slide active"
+            style="background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1600&q=80');">
+            <div class="hero-content">
+                <h2>Summer Collection 2026</h2>
+                <p>Discover the latest trends in fashion and accessories.</p>
+                <button class="btn btn-primary"
+                    onclick="document.getElementById('products-section').scrollIntoView({behavior: 'smooth'})">Shop
+                    Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container with Sidebar and Product Grid -->
+    <main class="main-container" id="products-section">
+
+        <!-- Sidebar Filters -->
+        <aside class="sidebar-filters">
+            <div class="filter-group">
+                <h3>Categories</h3>
+                <ul id="categoryFilter" class="filter-list">
+                    <li><label><input type="radio" name="category" value="All" checked> All</label></li>
+                    <li><label><input type="radio" name="category" value="Shirts"> Shirts</label></li>
+                    <li><label><input type="radio" name="category" value="Pants"> Pants</label></li>
+                    <li><label><input type="radio" name="category" value="Watches"> Watches</label></li>
+                    <li><label><input type="radio" name="category" value="Perfumes"> Perfumes</label></li>
+                </ul>
+            </div>
+
+            <div class="filter-group">
+                <h3>Sort By</h3>
+                <select id="sortSelect" class="filter-select">
+                    <option value="default">Default</option>
+                    <option value="price-asc">Price: Low to High</option>
+                    <option value="price-desc">Price: High to Low</option>
+                    <option value="rating-desc">Highest Rated</option>
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <h3>Price Range</h3>
+                <div class="price-inputs">
+                    <input type="number" id="minPrice" placeholder="Min" min="0">
+                    <span>-</span>
+                    <input type="number" id="maxPrice" placeholder="Max" min="0">
+                </div>
+                <button id="applyPriceFilter" class="btn btn-secondary btn-small mt-10">Apply</button>
+            </div>
+        </aside>
+
+        <!-- Product Grid Section -->
+        <section class="products-area">
+            <div class="products-header">
+                <h2 id="currentCategoryTitle">All Products</h2>
+                <span id="productCount">Loading...</span>
+            </div>
+
+            <!-- Products Grid Container -->
+            <div class="product-grid" id="productGrid">
+                <!-- Product cards will be injected here via JS -->
+            </div>
+
+            <!-- Pagination or Load More (Optional) -->
+            <div class="pagination">
+                <button id="loadMoreBtn" class="btn btn-secondary hidden">Load More</button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Shopping Cart Sidebar (Overlay) -->
+    <div class="cart-overlay" id="cartOverlay"></div>
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="close-btn" id="cartCloseBtn"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items injected via JS -->
+            <div class="empty-cart-msg">Your cart is empty.</div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-subtotal">
+                <span>Subtotal</span>
+                <span id="cartSubtotal">&#8377;0</span>
+            </div>
+
+            <div class="payment-options">
+                <h4>Payment Method</h4>
+                <div class="payment-methods-grid">
+                    <label class="payment-method">
+                        <input type="radio" name="payment" value="upi" checked>
+                        <div class="payment-box">
+                            <i class="fas fa-qrcode"></i>
+                            <span>UPI / QR</span>
+                        </div>
+                    </label>
+                    <label class="payment-method">
+                        <input type="radio" name="payment" value="card">
+                        <div class="payment-box">
+                            <i class="fas fa-credit-card"></i>
+                            <span>Card</span>
+                        </div>
+                    </label>
+                    <label class="payment-method">
+                        <input type="radio" name="payment" value="cod">
+                        <div class="payment-box">
+                            <i class="fas fa-truck"></i>
+                            <span>Cash (COD)</span>
+                        </div>
+                    </label>
+                </div>
+            </div>
+
+            <button class="btn btn-primary checkout-btn" id="checkoutBtn"><i class="fas fa-lock"
+                    style="margin-right:8px;"></i> Secure Checkout</button>
+            <div class="secure-badge">
+                <i class="fas fa-shield-alt"></i> 100% Secure Payments
+            </div>
+        </div>
+    </div>
+
+    <!-- Quick View Modal (Optional Enhancement) -->
+    <!-- Could implement later if needed. For now, we'll keep it simple and elegant on the cards. -->
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>LuxeStore</h3>
+                <p>Premium fashion and accessories for the modern trendsetter. Quality and style guaranteed.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Return Policy</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 LuxeStore E-Commerce Platform. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JS Scripts -->
+    <script src="js/app.js"></script>
+</body>
+
+</html>

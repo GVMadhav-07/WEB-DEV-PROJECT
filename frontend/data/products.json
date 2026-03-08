@@ -1,0 +1,802 @@
+[
+  {
+    "id": "PROD_0001",
+    "title": "Classic White T-Shirt",
+    "price": 800.0,
+    "rating": 4.6,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0002",
+    "title": "Blue Denim Shirt",
+    "price": 1500.0,
+    "rating": 4.5,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e13?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0003",
+    "title": "Black Polo Shirt",
+    "price": 1200.0,
+    "rating": 4.0,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0004",
+    "title": "Plaid Flannel Shirt",
+    "price": 1800.0,
+    "rating": 3.9,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0005",
+    "title": "Casual Henley",
+    "price": 1100.0,
+    "rating": 4.5,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0006",
+    "title": "Striped Button-Down",
+    "price": 1600.0,
+    "rating": 4.9,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1602810318383-e386cc2a3ccf?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0007",
+    "title": "Navy V-Neck",
+    "price": 950.0,
+    "rating": 4.1,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1588099768531-a72d4a198538?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0008",
+    "title": "Vintage Graphic Tee",
+    "price": 1300.0,
+    "rating": 3.9,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1503342394128-c104d54dba01?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0009",
+    "title": "Slim Fit Oxford",
+    "price": 2000.0,
+    "rating": 4.2,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1626497764746-a208dfd3ba2b?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0010",
+    "title": "Oversized Cotton Tee",
+    "price": 1000.0,
+    "rating": 4.7,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1574180566232-aaad1b5b8450?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0011",
+    "title": "Linen Summer Shirt",
+    "price": 2200.0,
+    "rating": 4.9,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0012",
+    "title": "Grey Sweatshirt",
+    "price": 1400.0,
+    "rating": 4.2,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1578587018452-892bace094f1?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0013",
+    "title": "Khaki Safari Shirt",
+    "price": 1700.0,
+    "rating": 4.6,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1584030373081-f37b7bb4fa8e?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0014",
+    "title": "Maroon Turtleneck",
+    "price": 1900.0,
+    "rating": 4.1,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1580651315530-69c8e0026377?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0015",
+    "title": "White Dress Shirt",
+    "price": 2500.0,
+    "rating": 3.8,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1504198458649-3128b932f49e?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0016",
+    "title": "Hawaiian Print Shirt",
+    "price": 1350.0,
+    "rating": 4.4,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1602810316693-3667c854239a?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0017",
+    "title": "Chambray Work Shirt",
+    "price": 1650.0,
+    "rating": 3.8,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1603252109303-2751441dd157?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0018",
+    "title": "Green Camo Tee",
+    "price": 900.0,
+    "rating": 4.7,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1594938298596-eb5fd0f71940?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0019",
+    "title": "Yellow Crew Neck",
+    "price": 850.0,
+    "rating": 3.8,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0020",
+    "title": "Pastel Pink Polo",
+    "price": 1250.0,
+    "rating": 4.4,
+    "category": "Shirts",
+    "image": "https://images.unsplash.com/photo-1596755094514-f87e32f85e13?w=500&q=80",
+    "colors": ["Red", "Blue", "Black", "White"],
+    "sizes": ["S", "M", "L", "XL"]
+  },
+  {
+    "id": "PROD_0021",
+    "title": "Classic Blue Jeans",
+    "price": 2000.0,
+    "rating": 4.6,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0022",
+    "title": "Black Denim Jeans",
+    "price": 2200.0,
+    "rating": 4.4,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0023",
+    "title": "Khaki Chino Pants",
+    "price": 1800.0,
+    "rating": 4.4,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0024",
+    "title": "Navy Tailored Trousers",
+    "price": 3000.0,
+    "rating": 4.6,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1584865288642-42078afe6942?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0025",
+    "title": "Grey Sweatpants",
+    "price": 1500.0,
+    "rating": 3.5,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0026",
+    "title": "Olive Cargo Pants",
+    "price": 2400.0,
+    "rating": 4.0,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0027",
+    "title": "Tan Corduroy Pants",
+    "price": 2600.0,
+    "rating": 4.7,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1594938298596-eb5fd0f71940?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0028",
+    "title": "Slim Fit Black Chinos",
+    "price": 1900.0,
+    "rating": 4.1,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0029",
+    "title": "Athletic Joggers",
+    "price": 1600.0,
+    "rating": 5.0,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1604164448130-d1df213c64eb?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0030",
+    "title": "Ripped Blue Jeans",
+    "price": 2100.0,
+    "rating": 4.6,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0031",
+    "title": "Formal Charcoal Trousers",
+    "price": 3500.0,
+    "rating": 4.2,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1602293589930-45aad59bc3b3?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0032",
+    "title": "White Linen Pants",
+    "price": 2800.0,
+    "rating": 3.9,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1517438476312-10d79c077509?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0033",
+    "title": "Brown Plaid Trousers",
+    "price": 3200.0,
+    "rating": 4.9,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0034",
+    "title": "Red Track Pants",
+    "price": 1400.0,
+    "rating": 4.7,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0035",
+    "title": "Camouflage Cargo Pants",
+    "price": 2500.0,
+    "rating": 4.5,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0036",
+    "title": "Utility Work Pants",
+    "price": 2700.0,
+    "rating": 4.1,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1473966968600-fa801b869a1a?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0037",
+    "title": "Light Wash Denim",
+    "price": 2100.0,
+    "rating": 4.0,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1584865288642-42078afe6942?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0038",
+    "title": "Dark Indigo Jeans",
+    "price": 2300.0,
+    "rating": 4.2,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1582552938357-32b906df40cb?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0039",
+    "title": "Beige Relaxed Chinos",
+    "price": 1850.0,
+    "rating": 4.2,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1594938298596-eb5fd0f71940?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0040",
+    "title": "Crop Wide Leg Pants",
+    "price": 2450.0,
+    "rating": 4.2,
+    "category": "Pants",
+    "image": "https://images.unsplash.com/photo-1555689502-c4b22d76c56f?w=500&q=80",
+    "colors": ["Blue", "Black", "Khaki", "Grey"],
+    "sizes": ["30", "32", "34", "36"]
+  },
+  {
+    "id": "PROD_0041",
+    "title": "Silver Chronograph Watch",
+    "price": 8000.0,
+    "rating": 4.2,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0042",
+    "title": "Gold Luxury Timepiece",
+    "price": 15000.0,
+    "rating": 4.7,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0043",
+    "title": "Black Leather Minimalist Watch",
+    "price": 5000.0,
+    "rating": 3.7,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0044",
+    "title": "Smart Fitness Watch",
+    "price": 12000.0,
+    "rating": 4.8,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1508656937222-2a77a944ae6a?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0045",
+    "title": "Rose Gold Women's Watch",
+    "price": 11000.0,
+    "rating": 4.2,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0046",
+    "title": "Dive Watch with Steel Band",
+    "price": 9500.0,
+    "rating": 3.9,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1614164185128-e4ec41097fa6?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0047",
+    "title": "Vintage Mechanical Watch",
+    "price": 18000.0,
+    "rating": 3.8,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8ec?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0048",
+    "title": "Tactical Sports Watch",
+    "price": 6000.0,
+    "rating": 3.8,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1587836173491-9252c422c53b?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0049",
+    "title": "Wood Grain Wristwatch",
+    "price": 4500.0,
+    "rating": 4.8,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1549971987-9b2f6385d564?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0050",
+    "title": "Blue Dial Dress Watch",
+    "price": 8500.0,
+    "rating": 4.2,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0051",
+    "title": "Square Face Retro Watch",
+    "price": 5500.0,
+    "rating": 4.1,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1604242692760-2f7b0c26856d?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0052",
+    "title": "Titanium Field Watch",
+    "price": 14000.0,
+    "rating": 4.4,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1594535182308-8ffef2665b16?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0053",
+    "title": "Ceramic Automatic Watch",
+    "price": 20000.0,
+    "rating": 4.5,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1508656937222-2a77a944ae6a?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0054",
+    "title": "Casual Nylon Band Watch",
+    "price": 3500.0,
+    "rating": 4.0,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0055",
+    "title": "Sapphire Crystal Watch",
+    "price": 16000.0,
+    "rating": 4.4,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1542496658-e33a6d0d50f6?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0056",
+    "title": "Skeleton Dial Watch",
+    "price": 22000.0,
+    "rating": 4.1,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1614164185128-e4ec41097fa6?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0057",
+    "title": "Dual Time Zone Watch",
+    "price": 13000.0,
+    "rating": 4.8,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1533139502658-0198f920d8ec?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0058",
+    "title": "Pilot's Aviation Watch",
+    "price": 10500.0,
+    "rating": 4.7,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1587836173491-9252c422c53b?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0059",
+    "title": "Minimalist Bauhaus Watch",
+    "price": 7500.0,
+    "rating": 4.4,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1549971987-9b2f6385d564?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0060",
+    "title": "Diamond Encrusted Watch",
+    "price": 45000.0,
+    "rating": 4.1,
+    "category": "Watches",
+    "image": "https://images.unsplash.com/photo-1622434641406-a158123450f9?w=500&q=80",
+    "colors": ["Silver", "Gold", "Black"],
+    "sizes": ["One Size"]
+  },
+  {
+    "id": "PROD_0061",
+    "title": "Ocean Breeze Cologne",
+    "price": 3000.0,
+    "rating": 4.5,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0062",
+    "title": "Woody Sandalwood Parfum",
+    "price": 4500.0,
+    "rating": 4.9,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0063",
+    "title": "Citrus Summer Fragrance",
+    "price": 2500.0,
+    "rating": 3.8,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0064",
+    "title": "Floral Rose Eau de Toilette",
+    "price": 3500.0,
+    "rating": 4.7,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1615397347101-236b33eb13eb?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0065",
+    "title": "Spicy Black Pepper Perfume",
+    "price": 4000.0,
+    "rating": 4.4,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1528740561666-dc2479e08ab0?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0066",
+    "title": "Vanilla Musk Body Mist",
+    "price": 1500.0,
+    "rating": 4.2,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703bc48b12?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0067",
+    "title": "Lavender Dream Cologne",
+    "price": 3200.0,
+    "rating": 4.0,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0068",
+    "title": "Bergamot & Leather Parfum",
+    "price": 5500.0,
+    "rating": 4.3,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1590736969955-71cc94801759?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0069",
+    "title": "Fresh Mountain Air Fragrance",
+    "price": 2800.0,
+    "rating": 4.5,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1616949013589-9a25032066fa?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0070",
+    "title": "Midnight Orchid Perfume",
+    "price": 4800.0,
+    "rating": 3.7,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1606509930811-309ea64dc4df?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0071",
+    "title": "Amber & Oud Wood Cologne",
+    "price": 6000.0,
+    "rating": 4.2,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0072",
+    "title": "Green Tea & Jasmine Scent",
+    "price": 2200.0,
+    "rating": 3.5,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0073",
+    "title": "Classic Barbershop Cologne",
+    "price": 3400.0,
+    "rating": 3.6,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1541643600914-78b084683601?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0074",
+    "title": "Exotic Patchouli Perfume",
+    "price": 5200.0,
+    "rating": 4.2,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0075",
+    "title": "Grapefruit & Vetiver Fragrance",
+    "price": 3100.0,
+    "rating": 4.5,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1615397347101-236b33eb13eb?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0076",
+    "title": "Sweet Cherry Blossom Mist",
+    "price": 1800.0,
+    "rating": 4.1,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1528740561666-dc2479e08ab0?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0077",
+    "title": "Dark Noir Eau de Parfum",
+    "price": 6500.0,
+    "rating": 4.9,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703bc48b12?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0078",
+    "title": "Aqua Marine Splash",
+    "price": 2600.0,
+    "rating": 4.1,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0079",
+    "title": "Cedarwood & Pine Cologne",
+    "price": 3800.0,
+    "rating": 4.5,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1590736969955-71cc94801759?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  },
+  {
+    "id": "PROD_0080",
+    "title": "Romantic Peony Perfume",
+    "price": 4200.0,
+    "rating": 4.7,
+    "category": "Perfumes",
+    "image": "https://images.unsplash.com/photo-1606509930811-309ea64dc4df?w=500&q=80",
+    "colors": ["None"],
+    "sizes": ["50ml", "100ml"]
+  }
+]
